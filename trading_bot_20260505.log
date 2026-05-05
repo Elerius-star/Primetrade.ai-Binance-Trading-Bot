@@ -1,0 +1,290 @@
+2026-05-05 17:15:32 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-05 17:15:32 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-05 17:15:32 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-05 17:15:32 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-05 17:15:32 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:15:32 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 17:15:32 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2026-05-05 17:15:32 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2026-05-05 17:15:33 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-05 17:15:33 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-05 17:15:43 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-05 17:15:43 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-05 17:15:43 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-05 17:15:43 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-05 17:15:43 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-05 17:15:43 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-05 17:15:43 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-05 17:15:43 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-05 17:16:55 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:55] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:55 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:55] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:16:55 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:55] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:55 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:55] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:16:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:56] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:56] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:56] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:16:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:56] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:16:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:56] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:56] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:57] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:57] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:57] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:16:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:16:57] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:01] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:01] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:01] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:01] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:02] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:02] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:02] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:02] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:06] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:06] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:06] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:06] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:06] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:06] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:07] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:07] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:07] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:07] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:11] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:11] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:11] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:11] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:12 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:12] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:12 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:12] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:12 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:12] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:12 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:12] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:16] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:16] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:16] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:16] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:16] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:16] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:17] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:17] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:17] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:17] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:21] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:21] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:21] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:21] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:22 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:22] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:22 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:22] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:22 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:22] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:22 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:22] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:26] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:26] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:26] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:26] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:26] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:26] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:27] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:27] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:27] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:27] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:31] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:31] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:31] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:31] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:31] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:31] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:32 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:32] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:32 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:32] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:36] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:36] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:36] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:36] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:36] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:36] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:37] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:37] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:37] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:37] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:41] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:41] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:41] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:41] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:41] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:41] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:42 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:42] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:42 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:42] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:46] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:46] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:46] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:46] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:47] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:47] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:47] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:47] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:47] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:47] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:51] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:51] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:51] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:51] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:51] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:51] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:52 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:52] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:52 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:52] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:56] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:56] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:56] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:56] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:17:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:56] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:56] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:57] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:57] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:57] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:17:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:17:57] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:01] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:01] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:01] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:01] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:01] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:01] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:02] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:02] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:02] "OPTIONS /api/place_order HTTP/1.1" 200 -
+2026-05-05 17:18:02 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:02] "OPTIONS /api/place_order HTTP/1.1" 200 -
+2026-05-05 17:18:03 - bot.orders - INFO - place_market_order:19 - Placing MARKET BUY order for 0.056 BTCUSDT
+2026-05-05 17:18:03 - bot.orders - INFO - place_market_order:19 - Placing MARKET BUY order for 0.056 BTCUSDT
+2026-05-05 17:18:03 - bot.orders - ERROR - place_market_order:49 - Unexpected error placing market order: 'NoneType' object has no attribute 'futures_create_order'
+2026-05-05 17:18:03 - bot.orders - ERROR - place_market_order:49 - Unexpected error placing market order: 'NoneType' object has no attribute 'futures_create_order'
+2026-05-05 17:18:03 - root - ERROR - place_order:71 - Order failed via web: {'success': False, 'error': "'NoneType' object has no attribute 'futures_create_order'"}
+2026-05-05 17:18:03 - root - ERROR - place_order:71 - Order failed via web: {'success': False, 'error': "'NoneType' object has no attribute 'futures_create_order'"}
+2026-05-05 17:18:03 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:03] "[31m[1mPOST /api/place_order HTTP/1.1[0m" 400 -
+2026-05-05 17:18:03 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:03] "[31m[1mPOST /api/place_order HTTP/1.1[0m" 400 -
+2026-05-05 17:18:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:06] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:06] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:06] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:06] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:06] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:06 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:06] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:07] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:07] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:07] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:07] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:11 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:11] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:16] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:16] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:16] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:16] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:16] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:16 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:16] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:17] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:17] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:17] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:17 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:17] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:19 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:19] "OPTIONS /api/place_order HTTP/1.1" 200 -
+2026-05-05 17:18:19 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:19] "OPTIONS /api/place_order HTTP/1.1" 200 -
+2026-05-05 17:18:19 - bot.orders - INFO - place_market_order:19 - Placing MARKET BUY order for 0.005 BTCUSDT
+2026-05-05 17:18:19 - bot.orders - INFO - place_market_order:19 - Placing MARKET BUY order for 0.005 BTCUSDT
+2026-05-05 17:18:19 - bot.orders - ERROR - place_market_order:49 - Unexpected error placing market order: 'NoneType' object has no attribute 'futures_create_order'
+2026-05-05 17:18:19 - bot.orders - ERROR - place_market_order:49 - Unexpected error placing market order: 'NoneType' object has no attribute 'futures_create_order'
+2026-05-05 17:18:20 - root - ERROR - place_order:71 - Order failed via web: {'success': False, 'error': "'NoneType' object has no attribute 'futures_create_order'"}
+2026-05-05 17:18:20 - root - ERROR - place_order:71 - Order failed via web: {'success': False, 'error': "'NoneType' object has no attribute 'futures_create_order'"}
+2026-05-05 17:18:20 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:20] "[31m[1mPOST /api/place_order HTTP/1.1[0m" 400 -
+2026-05-05 17:18:20 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:20] "[31m[1mPOST /api/place_order HTTP/1.1[0m" 400 -
+2026-05-05 17:18:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:21] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:21] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:21] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:21] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:21] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:21 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:21] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:22 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:22] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:22 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:22] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:26 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:26] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:27] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:27] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:31] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:31] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:31] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:31] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:31] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:31 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:31] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:32 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:32] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:32 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:32] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:36] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:36] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:36] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:36] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:36] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:36 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:36] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:37] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:37] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:37] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:37 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:37] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:41] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:41] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:41] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:41] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:41] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:41 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:41] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:42 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:42] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:42 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:42] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:46 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:46] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:47] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:47] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:47] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:47] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:51] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:51] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:51] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:51] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:51] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:51 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:51] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:52 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:52] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:52 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:52] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:56 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:56] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:57] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:18:57 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:18:57] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:01] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:01] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:01] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:01 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:01] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:03 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:03] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:03 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:03] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:05 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:05] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:05 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:05] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/BTCUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/account_info HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/ETHUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/BNBUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
+2026-05-05 17:19:07 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [05/May/2026 17:19:07] "GET /api/price/SOLUSDT HTTP/1.1" 200 -
