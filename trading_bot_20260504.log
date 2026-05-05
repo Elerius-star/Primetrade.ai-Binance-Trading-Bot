@@ -1,0 +1,52 @@
+2026-05-04 07:55:04 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-04 07:55:04 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-04 07:58:25 - bot.orders - INFO - place_market_order:19 - Placing MARKET BUY order for 2.0 BTCUSDT
+2026-05-04 07:58:25 - bot.orders - INFO - place_market_order:19 - Placing MARKET BUY order for 2.0 BTCUSDT
+2026-05-04 07:58:25 - bot.orders - ERROR - place_market_order:49 - Unexpected error placing market order: 'NoneType' object has no attribute 'futures_create_order'
+2026-05-04 07:58:25 - bot.orders - ERROR - place_market_order:49 - Unexpected error placing market order: 'NoneType' object has no attribute 'futures_create_order'
+2026-05-04 07:58:25 - root - ERROR - execute_order:150 - Order failed: {'success': False, 'error': "'NoneType' object has no attribute 'futures_create_order'"}
+2026-05-04 07:58:25 - root - ERROR - execute_order:150 - Order failed: {'success': False, 'error': "'NoneType' object has no attribute 'futures_create_order'"}
+2026-05-04 08:04:11 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-04 08:04:11 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-04 08:04:11 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-04 08:04:11 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-04 08:04:11 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-04 08:04:11 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-04 08:04:11 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2026-05-04 08:04:11 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2026-05-04 08:04:11 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-04 08:04:11 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-04 08:04:21 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-04 08:04:21 - bot.client - WARNING - __init__:25 - RUNNING IN MOCK MODE - No real API calls
+2026-05-04 08:04:21 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-04 08:04:21 - root - INFO - <module>:21 - Web application initialized successfully
+2026-05-04 08:04:21 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-04 08:04:21 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-04 08:04:21 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-04 08:04:21 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-04 08:21:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:27] "GET / HTTP/1.1" 200 -
+2026-05-04 08:21:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:27] "GET / HTTP/1.1" 200 -
+2026-05-04 08:21:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:27] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:27] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:27] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:27 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:27] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:28 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-04 08:21:28 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-04 08:21:39 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:39] "GET / HTTP/1.1" 200 -
+2026-05-04 08:21:39 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:39] "GET / HTTP/1.1" 200 -
+2026-05-04 08:21:40 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:40 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:40] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:40 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:40] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:40 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:40] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:44 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:44] "GET / HTTP/1.1" 200 -
+2026-05-04 08:21:44 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:44] "GET / HTTP/1.1" 200 -
+2026-05-04 08:21:45 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:45 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:47] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2026-05-04 08:21:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
+2026-05-04 08:21:47 - werkzeug - INFO - _log:187 - 127.0.0.1 - - [04/May/2026 08:21:47] "[33mGET /app.js HTTP/1.1[0m" 404 -
