@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance Futures Trading Bot | Professional Trading Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <i class="fas fa-chart-line"></i>
+                <span>TradeBot Pro</span>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-page="dashboard">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item" data-page="orders">
+                    <i class="fas fa-exchange-alt"></i>
+                    <span>Place Orders</span>
+                </a>
+                <a href="#" class="nav-item" data-page="portfolio">
+                    <i class="fas fa-wallet"></i>
+                    <span>Portfolio</span>
+                </a>
+                <a href="#" class="nav-item" data-page="history">
+                    <i class="fas fa-history"></i>
+                    <span>History</span>
+                </a>
+            </nav>
+            
+            <div class="connection-status">
+                <div class="status-indicator"></div>
+                <span>Connected to Testnet</span>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <div class="header-title">
+                    <h1>Trading Dashboard</h1>
+                    <p>Binance Futures Testnet - Execute trades in real-time</p>
+                </div>
+                <div class="header-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-link"></i>
+                        <div>
+                            <span class="stat-label">API Status</span>
+                            <span class="stat-value online">Online</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-chart-simple"></i>
+                        <div>
+                            <span class="stat-label">Market</span>
+                            <span class="stat-value">USDT-M</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dashboard Page -->
+            <div id="dashboard-page" class="page active">
+                <div class="price-ticker" id="price-ticker">
+                    <div class="ticker-item">
+                        <span class="symbol">BTCUSDT</span>
+                        <span class="price" id="btc-price">Loading...</span>
+                    </div>
+                    <div class="ticker-item">
+                        <span class="symbol">ETHUSDT</span>
+                        <span class="price" id="eth-price">Loading...</span>
+                    </div>
+                    <div class="ticker-item">
+                        <span class="symbol">BNBUSDT</span>
+                        <span class="price" id="bnb-price">Loading...</span>
+                    </div>
+                    <div class="ticker-item">
+                        <span class="symbol">SOLUSDT</span>
+                        <span class="price" id="sol-price">Loading...</span>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card-large">
+                        <i class="fas fa-coins"></i>
+                        <div>
+                            <span class="stat-label">Total Balance</span>
+                            <span class="stat-value" id="total-balance">$0.00</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-large">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <span class="stat-label">Available Balance</span>
+                            <span class="stat-value" id="available-balance">$0.00</span>
+                        </div>
+                    </div>
+                    <div class="stat-card-large">
+                        <i class="fas fa-percent"></i>
+                        <div>
+                            <span class="stat-label">24h Volume</span>
+                            <span class="stat-value" id="volume">$0.00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quick-actions">
+                    <h3>Quick Actions</h3>
+                    <div class="action-buttons">
+                        <button class="action-btn buy" onclick="quickOrder('BUY')">
+                            <i class="fas fa-arrow-up"></i> Quick Buy
+                        </button>
+                        <button class="action-btn sell" onclick="quickOrder('SELL')">
+                            <i class="fas fa-arrow-down"></i> Quick Sell
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Orders Page -->
+            <div id="orders-page" class="page">
+                <div class="order-form-container">
+                    <h2>Place New Order</h2>
+                    <form id="order-form">
+                        <div class="form-group">
+                            <label><i class="fas fa-chart-simple"></i> Symbol</label>
+                            <select id="symbol" required>
+                                <option value="BTCUSDT">BTCUSDT</option>
+                                <option value="ETHUSDT">ETHUSDT</option>
+                                <option value="BNBUSDT">BNBUSDT</option>
+                                <option value="SOLUSDT">SOLUSDT</option>
+                                <option value="XRPUSDT">XRPUSDT</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label><i class="fas fa-arrows-up-down"></i> Side</label>
+                            <div class="side-buttons">
+                                <button type="button" class="side-btn buy-btn" data-side="BUY">
+                                    <i class="fas fa-arrow-up"></i> BUY
+                                </button>
+                                <button type="button" class="side-btn sell-btn" data-side="SELL">
+                                    <i class="fas fa-arrow-down"></i> SELL
+                                </button>
+                            </div>
+                            <input type="hidden" id="side" value="BUY">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label><i class="fas fa-tag"></i> Order Type</label>
+                            <div class="type-buttons">
+                                <button type="button" class="type-btn active" data-type="MARKET">
+                                    MARKET
+                                </button>
+                                <button type="button" class="type-btn" data-type="LIMIT">
+                                    LIMIT
+                                </button>
+                            </div>
+                            <input type="hidden" id="order-type" value="MARKET">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label><i class="fas fa-weight-hanging"></i> Quantity</label>
+                            <input type="number" id="quantity" step="0.001" placeholder="0.001" required>
+                        </div>
+                        
+                        <div class="form-group" id="price-group" style="display: none;">
+                            <label><i class="fas fa-dollar-sign"></i> Limit Price</label>
+                            <input type="number" id="price" step="0.01" placeholder="Price">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label><i class="fas fa-info-circle"></i> Current Market Price</label>
+                            <div class="market-price" id="market-price">Loading...</div>
+                        </div>
+                        
+                        <button type="submit" class="submit-order">
+                            <i class="fas fa-paper-plane"></i> Place Order
+                        </button>
+                    </form>
+                </div>
+                
+                <div id="order-result" class="order-result" style="display: none;"></div>
+            </div>
+            
+            <!-- Portfolio Page -->
+            <div id="portfolio-page" class="page">
+                <h2>Portfolio Overview</h2>
+                <div id="portfolio-content">
+                    <div class="loading">Loading portfolio data...</div>
+                </div>
+            </div>
+            
+            <!-- History Page -->
+            <div id="history-page" class="page">
+                <h2>Order History</h2>
+                <div id="history-content">
+                    <div class="info-box">
+                        <i class="fas fa-info-circle"></i>
+                        <p>Order history will appear here after placing trades</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/app.js"></script>
+</body>
+</html>
