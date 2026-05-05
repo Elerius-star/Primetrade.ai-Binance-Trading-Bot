@@ -1,0 +1,66 @@
+2026-05-01 23:30:16 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:30:16 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:30:16 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:30:16 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:30:28 - root - ERROR - initialize_client:46 - Initialization failed: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:30:28 - root - ERROR - initialize_client:46 - Initialization failed: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:38:39 - dotenv.main - WARNING - with_warn_for_invalid_lines:27 - Python-dotenv could not parse statement starting at line 2
+2026-05-01 23:38:39 - dotenv.main - WARNING - with_warn_for_invalid_lines:27 - Python-dotenv could not parse statement starting at line 2
+2026-05-01 23:38:39 - dotenv.main - WARNING - with_warn_for_invalid_lines:27 - Python-dotenv could not parse statement starting at line 3
+2026-05-01 23:38:39 - dotenv.main - WARNING - with_warn_for_invalid_lines:27 - Python-dotenv could not parse statement starting at line 3
+2026-05-01 23:38:39 - dotenv.main - WARNING - with_warn_for_invalid_lines:27 - Python-dotenv could not parse statement starting at line 4
+2026-05-01 23:38:39 - dotenv.main - WARNING - with_warn_for_invalid_lines:27 - Python-dotenv could not parse statement starting at line 4
+2026-05-01 23:38:39 - root - ERROR - initialize_client:46 - Initialization failed: API credentials not found. Set BINANCE_API_KEY and BINANCE_API_SECRET
+2026-05-01 23:38:39 - root - ERROR - initialize_client:46 - Initialization failed: API credentials not found. Set BINANCE_API_KEY and BINANCE_API_SECRET
+2026-05-01 23:44:12 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:44:12 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:44:12 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:44:12 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:44:24 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:44:24 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:44:24 - root - ERROR - initialize_client:46 - Initialization failed: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:44:24 - root - ERROR - initialize_client:46 - Initialization failed: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:46:53 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:46:53 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:46:53 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:46:53 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:47:06 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:06 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:06 - root - ERROR - <module>:23 - Failed to initialize bot: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:06 - root - ERROR - <module>:23 - Failed to initialize bot: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:06 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-01 23:47:06 - werkzeug - INFO - _log:187 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-01 23:47:06 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2026-05-01 23:47:06 - werkzeug - INFO - _log:187 - [33mPress CTRL+C to quit[0m
+2026-05-01 23:47:06 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-01 23:47:06 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-01 23:47:11 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:47:11 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:47:11 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:47:11 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:47:23 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:23 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:23 - root - ERROR - <module>:23 - Failed to initialize bot: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:23 - root - ERROR - <module>:23 - Failed to initialize bot: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:47:23 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-01 23:47:23 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-01 23:47:23 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-01 23:47:23 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-01 23:48:39 - werkzeug - INFO - _log:187 -  * Detected change in 'C:\\Users\\USER-PC\\.vscode\\trading_bot\\bot\\client.py', reloading
+2026-05-01 23:48:39 - werkzeug - INFO - _log:187 -  * Detected change in 'C:\\Users\\USER-PC\\.vscode\\trading_bot\\bot\\client.py', reloading
+2026-05-01 23:48:40 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-01 23:48:40 - werkzeug - INFO - _log:187 -  * Restarting with stat
+2026-05-01 23:48:47 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:48:47 - asyncio - DEBUG - __init__:633 - Using proactor: IocpProactor
+2026-05-01 23:48:47 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:48:47 - urllib3.connectionpool - DEBUG - _new_conn:1049 - Starting new HTTPS connection (1): testnet.binance.vision:443
+2026-05-01 23:49:00 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:49:00 - bot.client - ERROR - __init__:50 - Failed to connect: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:49:00 - root - ERROR - <module>:23 - Failed to initialize bot: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:49:00 - root - ERROR - <module>:23 - Failed to initialize bot: HTTPSConnectionPool(host='testnet.binance.vision', port=443): Max retries exceeded with url: /api/v3/ping (Caused by NameResolutionError("HTTPSConnection(host='testnet.binance.vision', port=443): Failed to resolve 'testnet.binance.vision' ([Errno 11001] getaddrinfo failed)"))
+2026-05-01 23:49:00 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-01 23:49:00 - werkzeug - WARNING - _log:187 -  * Debugger is active!
+2026-05-01 23:49:00 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
+2026-05-01 23:49:00 - werkzeug - INFO - _log:187 -  * Debugger PIN: 124-861-923
