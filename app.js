@@ -5,9 +5,10 @@ let currentType = 'MARKET';
 let previousPrices = {};
 let recentOrders = [];
 
-// Detect if running on Live Server or Flask
-const isLiveServer = window.location.port === '5500' || window.location.protocol === 'file:';
-const API_BASE_URL = isLiveServer ? 'http://localhost:5000' : '';
+// ============================================
+// 🔗 BACKEND URL - Update this to your Render URL
+// ============================================
+const API_BASE_URL = 'https://python-trading-bot-c9j0.onrender.com';
 
 // Override fetch to use correct API URL
 const originalFetch = window.fetch;
@@ -45,9 +46,7 @@ async function checkBackendStatus() {
         document.getElementById('api-status').textContent = 'Offline';
         document.getElementById('mode-status').textContent = 'Offline';
         
-        if (isLiveServer) {
-            showToast('⚠️ Backend server not running! Please run "python web_app.py"', 'error');
-        }
+        showToast('⚠️ Backend server not responding!', 'error');
         return false;
     }
 }
@@ -269,7 +268,7 @@ async function loadPrices() {
     
     for (const symbol of symbols) {
         try {
-            const response = await fetch(`/api/price/${symbol}`);
+            const response = await fetch(`${API_BASE_URL}/api/price/${symbol}`);
             const data = await response.json();
             
             if (data.success) {
@@ -302,7 +301,7 @@ async function loadPrices() {
 
 async function loadMarketPrice() {
     try {
-        const response = await fetch(`/api/price/${currentSymbol}`);
+        const response = await fetch(`${API_BASE_URL}/api/price/${currentSymbol}`);
         const data = await response.json();
         
         if (data.success) {
@@ -327,7 +326,7 @@ async function loadMarketPrice() {
 
 async function loadAccountInfo() {
     try {
-        const response = await fetch('/api/account_info');
+        const response = await fetch(`${API_BASE_URL}/api/account_info`);
         const data = await response.json();
         
         if (data.success && data.data) {
@@ -368,7 +367,7 @@ async function loadPortfolio() {
     portfolioContent.innerHTML = '<div class="loading">Loading portfolio data...</div>';
     
     try {
-        const response = await fetch('/api/account_info');
+        const response = await fetch(`${API_BASE_URL}/api/account_info`);
         const data = await response.json();
         
         if (data.success && data.data && data.data.assets) {
@@ -476,7 +475,7 @@ async function placeOrder() {
     showToast('Placing order...', 'info');
     
     try {
-        const response = await fetch('/api/place_order', {
+        const response = await fetch(`${API_BASE_URL}/api/place_order`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
