@@ -1,30 +1,29 @@
 """
-Binance Futures Trading Bot - Core Package
-This package provides trading functionality for Binance Futures Testnet
+Web Interface Package for Trading Bot
+Handles Flask routes and frontend serving
 """
 
-from bot.client import BinanceFuturesClient
-from bot.orders import OrderManager
-from bot.validators import OrderValidator
-from bot.logging_config import setup_logging, logger
-from bot.api_client import DirectAPIClient
+from flask import Flask
+from flask_cors import CORS
+import os
 
-__version__ = "1.0.0"
-__author__ = "Trading Bot Team"
-__description__ = "Professional trading bot for Binance Futures Testnet"
+def create_app(config=None):
+    """Application factory for Flask app"""
+    app = Flask(__name__, 
+                template_folder='.',
+                static_folder='.')
+    
+    # Configure CORS
+    CORS(app)
+    
+    # Load configuration
+    if config:
+        app.config.update(config)
+    
+    # Set default settings
+    app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
+    app.config['JSON_SORT_KEYS'] = False
+    
+    return app
 
-# Initialize logging when package is imported
-setup_logging()
-
-# Define what gets imported with "from bot import *"
-__all__ = [
-    'BinanceFuturesClient',
-    'OrderManager', 
-    'OrderValidator',
-    'DirectAPIClient',
-    'setup_logging',
-    'logger'
-]
-
-# Package metadata
-__all__.extend(['__version__', '__author__', '__description__'])
+__all__ = ['create_app']
