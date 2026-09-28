@@ -1,0 +1,9 @@
+python-binance==1.0.17
+requests==2.31.0
+python-dotenv==1.0.0
+click==8.1.7
+rich==13.7.0
+flask==3.0.0
+flask-cors==4.0.0
+websocket-client==1.6.4
+colorama==0.4.6
